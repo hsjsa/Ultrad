@@ -1,4 +1,4 @@
-FROM rootgamer/ultra-0id:latest
+FROM hsjsa/ultra-0id:latest
 
 COPY . .
 
