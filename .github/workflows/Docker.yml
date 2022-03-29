@@ -13,5 +13,5 @@ jobs:
       run: |
        echo "${{ secrets.DOCKERPASS }}" | docker login -u "${{ secrets.DOCKERUSER }}" --password-stdin
        docker build -t ttld .
-       docker tag ttld:latest hsjsa/lejhand:latest
-       docker push hsjsa/lejhand:latest
+       docker tag ttld:latest hsjsa/ultra-0id:latest
+       docker push hsjsa/ultra-0id:latest
